@@ -3,6 +3,9 @@
 namespace NilsInfinite.Engineering.Modules;
 public class ThermalDesign : IThermalDesign
 {
+    /// <summary>
+    /// <inheritdoc cref="IThermalDesign"/>
+    /// </summary>
     public double CalculateLogMeanTemperatureDifference(
         double hotInletTemperature,
         double coldInletTemperature,
