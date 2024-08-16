@@ -17,4 +17,5 @@ public class ThermalDesign : IThermalDesign
         }
         return (temperatureDeltaOutlet - temperatureDeltaInlet) / Math.Log(temperatureDeltaOutlet / temperatureDeltaInlet);
     }
+
 }
