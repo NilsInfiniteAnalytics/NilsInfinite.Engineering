@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NilsInfinite.Engineering.Test\**" />
+    <EmbeddedResource Remove="NilsInfinite.Engineering.Test\**" />
+    <None Remove="NilsInfinite.Engineering.Test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Models\ThermalDesign\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_GlobalJsonStartingDir Remove="NilsInfinite.Engineering.Test\**" />
+  </ItemGroup>
+
+</Project>
